@@ -25,6 +25,12 @@ nav {
 
 }
 
+header {
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-position: bottom left, top left;
+}
+
 .logo-container {
     width: 50%;
     display: flex;
@@ -78,11 +84,12 @@ nav {
     align-items: center;
     margin: 0 auto;
     max-width: 1440px;
+
 }
 
 .banner-content {
     width: 50%;
-    background-image: url("./images.Group 14");
+
 }
 
 .banner-img {
@@ -168,6 +175,9 @@ footer {
     width: 1920px;
     height: 636px;
     margin: 0 auto;
+}
+.fa-brands {
+    align-items: center;
 }
 
 @media screen and (max-width:576px) {
