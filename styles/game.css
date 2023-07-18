@@ -97,11 +97,60 @@ nav {
     display: flex;
     justify-content: space-between;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    
+
 }
-.funny-cards-container{
+
+.funny-cards-container {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.funny-cards-container .funny-cards {
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 342px;
+    height: 400px;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.play-banner-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.gaming-section-container {
+    width: 1920px;
+    height: 427px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin: 0 auto;
+}
+
+
+
+.btn-img {
+    width: 243px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+    color: #0B0223;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+
+footer {
+    background: #0B0223;
+    width: 1920px;
+    height: 636px;
+    margin: 0 auto;
 }
 
 @media screen and (max-width:576px) {
