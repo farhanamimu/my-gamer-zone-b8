@@ -130,6 +130,15 @@ nav {
     margin: 0 auto;
 }
 
+.careers-banner {
+    width: 1920px;
+    height: 821px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    display: flex;
+    margin: 0 auto;
+}
+
 
 
 .btn-img {
@@ -141,6 +150,14 @@ nav {
     font-size: 20px;
     text-align: center;
     font-weight: 600;
+}
+
+.gaming-section-container {
+    width: 1920px;
+    height: 427px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
 }
 
 
