@@ -54,6 +54,7 @@ nav {
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
+    text-align: center;
 }
 
 .text-color {
@@ -68,5 +69,58 @@ nav {
     height: 56px;
     text-align: center;
     padding-top: 15px;
+
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.banner-content {
+    width: 50%;
+    background-image: url("./images.Group 14");
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.gamer-container {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     
+}
+.funny-cards-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column
+    }
+
+    .nav-items-container {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+    }
+
+    @media screen and (min-width:576px) and (max-width:960px) {
+
+
+        .nav-container {
+            flex-direction: column;
+        }
+    }
 }
