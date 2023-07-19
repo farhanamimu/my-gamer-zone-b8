@@ -12,6 +12,9 @@ body {
 
 nav {
     padding: 10px o;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    ;
 }
 
 .nav-container {
@@ -32,29 +35,33 @@ header {
 }
 
 .logo-container {
-    width: 100%;
+    width: 50%;
     display: flex;
     font-size: 25px;
+    align-items: center;
+    gap: 20px;
+
 }
 
 .logo-container p {
     font-size: 45px;
     font-weight: 700;
+
 }
 
 .nav-items-container {
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     max-width: 8oopx;
-    margin: 0 auto;
+    align-items: center;
 
 }
 
 .logo-container img {
     height: 40px;
     width: 86px;
-    margin-top: 44px;
+
 }
 
 .logo-container p {
@@ -67,6 +74,7 @@ header {
     font-size: 18px;
     font-weight: 500;
     text-align: center;
+
 }
 
 .text-color {
@@ -92,6 +100,7 @@ header {
     margin: 0 auto;
     max-width: 1440px;
 
+
 }
 
 .banner-text {
@@ -101,6 +110,7 @@ header {
     font-weight: 600;
     text-transform: uppercase;
 
+
 }
 
 .banner-description {
@@ -109,36 +119,134 @@ header {
     font-weight: 800;
     text-transform: uppercase;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .banner-content {
-    width: 50%;
+    align-items: center;
 
 }
 
-.banner-img {
-    width: 50%;
+.banner-img {}
+
+.banner-img img {}
+
+.btn-second {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
 }
 
-.banner-img img {
-    width: 100%;
+.btn-first {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.gamer-content {}
+
+.gamer-img {
+    width: 868px;
+    height: 489px;
+
+}
+
+.gamer-content-text {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.gamer-content-description {
+    width: 520px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
 }
 
 .gamer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    align-items: center;
 
 }
+
+.btn-third {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+funny-banner {
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.funny-content {
+    text-align: center;
+    margin-top: 176px;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.funny-content .funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.funny-text {
+    text-align: center;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
 
 .funny-cards-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 0 auto;
+
 }
 
 .funny-cards-container .funny-cards {
@@ -147,12 +255,29 @@ header {
     width: 342px;
     height: 400px;
     align-items: center;
-    margin-left: 24px;
+    gap: 10px;
 }
 
 .play-banner-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.play-banner h3 {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.play-text {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -165,12 +290,60 @@ header {
 }
 
 .careers-banner {
-    width: 1920px;
+    max-width: 1920px;
     height: 821px;
-    flex-shrink: 0;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     display: flex;
     margin: 0 auto;
+    justify-content: space-around;
+}
+
+.text-careers {
+    width: 426px;
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+}
+
+.text-gray-light {
+    width: 680px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.careers-1 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.careers-2 {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: right;
+}
+
+.btn-fifth {
+    border-radius: 48px;
+    background: #FFF;
+    display: inline-flex;
+    padding: 21px 40px;
+    gap: 10px;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+
 }
 
 
@@ -249,10 +422,19 @@ footer {
     }
 
     .nav-items-container {
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        width: 50%;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .nav-items-container a {
+        margin-top: 20px;
+    }
+
+    .nav-items-container .nav-btn {
+        width: 100%;
+        margin-bottom: 10px;
+
     }
 
     @media screen and (min-width:576px) and (max-width:960px) {
