@@ -35,7 +35,7 @@ header {
 }
 
 .logo-container {
-    width: 50%;
+    width: 100%;
     display: flex;
     font-size: 25px;
     align-items: center;
@@ -121,15 +121,14 @@ header {
     -webkit-text-fill-color: transparent;
 }
 
-.banner-content {
+.banner-content {;
     align-items: center;
 
 }
 
-.banner-img {}
-
-.banner-img img {}
-
+.banner-img{
+    width: 50%;
+}
 .btn-second {
     color: #FFF;
     font-size: 20px;
@@ -222,9 +221,7 @@ header {
 
 .text-gray-2 {
     color: #534C64;
-    font-family: Work Sans;
     font-size: 32px;
-    font-style: normal;
     font-weight: 700;
     line-height: 45px;
     margin-bottom: 96px;
@@ -282,13 +279,29 @@ funny-banner {
     gap: 10px;
 }
 
+.funny-cards-container .funny-cards:hoover {
+    cursor: pointer;
+    border-color: #8758F1;
+
+}
+
 .play-banner {
     width: 50%;
     align-items: center;
     text-align: center;
 }
+.play-banner-img{
+    width: 50%;
+    height:100%
+}
 
-.play-banner-img img {}
+.play-banner-img-1 {
+    position: relative;
+    bottom: 200px;
+    width: 318.5px;
+    height: 365.083px;
+    border-radius: 8px;
+}
 
 .play-banner-container {
     display: flex;
@@ -326,10 +339,12 @@ funny-banner {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     margin: 0 auto;
 }
-.careers{
+
+.careers {
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 
 }
+
 .careers-banner {
     max-width: 1440px;
     height: 821px;
@@ -401,6 +416,11 @@ funny-banner {
     font-weight: 600;
 }
 
+.btn-img:hover {
+    cursor: pointer;
+    border-color: #4EC5F7;
+}
+
 .game-part-2 {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     margin: 0 auto;
@@ -408,7 +428,8 @@ funny-banner {
     gap: 40px;
 
 }
-.gaming-section-container{
+
+.gaming-section-container {
     max-width: 1440px;
     margin: 0 auto;
     align-items: center;
@@ -433,8 +454,14 @@ funny-banner {
 
 footer {
     background: #0B0223;
-    width: 100% height: 636px;
     margin: 0 auto;
+}
+
+.footer-content ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
 }
 
 .fa-brands {
@@ -484,9 +511,19 @@ footer {
     .logo-container,
     .careers-banner,
     .gamer-container,
-    .funny-cards-container {
+    .play-banner-container,
+    .funny-cards-container,
+    .btn-img,
+    .gaming-section-1,
+    .gaming-section-2
+    {
         flex-direction: column;
     }
+
+.banner-img{
+    width: 100%;
+}
+
 
     .nav-items-container {
         flex-direction: column;
@@ -502,6 +539,9 @@ footer {
         width: 100%;
         margin-bottom: 10px;
 
+    }
+    .funny-cards-container .funny-cards{
+        margin-top: 100px;
     }
 
     @media screen and (min-width:576px) and (max-width:960px) {
