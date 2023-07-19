@@ -514,9 +514,9 @@ footer {
     .play-banner-container,
     .funny-cards-container,
     .btn-img,
-    .gaming-section-1,
-    .gaming-section-2
+    .footer-logo
     {
+
         flex-direction: column;
     }
 
@@ -542,8 +542,20 @@ footer {
     }
     .funny-cards-container .funny-cards{
         margin-top: 100px;
-    }
 
+    }
+    .gaming-section-1{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .gaming-section-2{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .footer-content ul{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .social-accounts .fa-brands{
+        grid-template-columns: repeat(3,1fr);
+    }
     @media screen and (min-width:576px) and (max-width:960px) {
 
 
