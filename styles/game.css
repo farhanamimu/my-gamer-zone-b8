@@ -125,6 +125,10 @@ header {
     padding-bottom: 40px;
 }
 
+.banner-img {
+    width: 50%;
+}
+
 .banner-img img {
     width: 90%
 }
@@ -159,8 +163,12 @@ header {
     width: 50%;
 }
 
+.gamer-container {
+    width: 50%;
+}
+
 .gamer-container img {
-    width: 60%
+    width: 100%
 }
 
 .gamer-content-text {
@@ -354,6 +362,22 @@ funny-banner {
     justify-content: space-around;
 }
 
+.careers-banner {
+    width: 1920px;
+    height: 821px;
+    flex-shrink: 0;
+}
+
+.careers-banner-img {
+    width: 50%;
+}
+
+.careers-banner-img img {
+    width: 1013px;
+    height: 821px;
+    flex-shrink: 0;
+}
+
 .text-careers {
     width: 426px;
     color: #FFF;
@@ -394,11 +418,11 @@ funny-banner {
     display: inline-flex;
     padding: 21px 40px;
     gap: 10px;
-    font-family: Work Sans;
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
+    margin-top: 40px;
 
 }
 
@@ -417,17 +441,18 @@ funny-banner {
     font-weight: 600;
 }
 
-.btn-img:hover {
+.play-banner-img-1 .watch:hover {
     cursor: pointer;
     border-color: #4EC5F7;
+    width: 342px;
+    height: 400px;
+    flex-shrink: 0;;
 }
 
 .game-part-2 {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    margin: 0 auto;
     padding: 40px 0;
     gap: 40px;
-
 }
 
 .gaming-section-container {
@@ -456,6 +481,7 @@ funny-banner {
 footer {
     background: #0B0223;
     margin: 0 auto;
+
 }
 
 .footer-content ul {
@@ -473,6 +499,8 @@ footer {
     text-align: center;
     color: #FFF;
     padding-top: 40px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .footer-section p {
@@ -545,13 +573,17 @@ footer {
 
     }
 
-    .gamer-container img {
-        width: 100%;
-    }
-
     .funny-cards-container .funny-cards {
         margin-top: 100px;
 
+    }
+
+    .careers-banner-img {
+        width:100%;
+    }
+
+    .careers-banner {
+        width: 100%
     }
 
     .gaming-section-1 {
