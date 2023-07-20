@@ -121,14 +121,14 @@ header {
     -webkit-text-fill-color: transparent;
 }
 
-.banner-content {;
-    align-items: center;
-
+.banner-content {
+    padding-bottom: 40px;
 }
 
-.banner-img{
-    width: 50%;
+.banner-img img {
+    width: 90%
 }
+
 .btn-second {
     color: #FFF;
     font-size: 20px;
@@ -159,7 +159,7 @@ header {
     width: 50%;
 }
 
-.gamer-img {
+.gamer-container img {
     width: 60%
 }
 
@@ -290,9 +290,10 @@ funny-banner {
     align-items: center;
     text-align: center;
 }
-.play-banner-img{
+
+.play-banner-img {
     width: 50%;
-    height:100%
+    height: 100%
 }
 
 .play-banner-img-1 {
@@ -514,15 +515,18 @@ footer {
     .play-banner-container,
     .funny-cards-container,
     .btn-img,
-    .footer-logo
-    {
+    .footer-logo {
 
         flex-direction: column;
     }
 
-.banner-img{
-    width: 100%;
-}
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
 
 
     .nav-items-container {
@@ -540,22 +544,32 @@ footer {
         margin-bottom: 10px;
 
     }
-    .funny-cards-container .funny-cards{
+
+    .gamer-container img {
+        width: 100%;
+    }
+
+    .funny-cards-container .funny-cards {
         margin-top: 100px;
 
     }
-    .gaming-section-1{
-        grid-template-columns: repeat(3,1fr);
+
+    .gaming-section-1 {
+        grid-template-columns: repeat(3, 1fr);
     }
-    .gaming-section-2{
-        grid-template-columns: repeat(3,1fr);
+
+    .gaming-section-2 {
+        grid-template-columns: repeat(3, 1fr);
     }
-    .footer-content ul{
-        grid-template-columns: repeat(3,1fr);
+
+    .footer-content ul {
+        grid-template-columns: repeat(3, 1fr);
     }
-    .social-accounts .fa-brands{
-        grid-template-columns: repeat(3,1fr);
+
+    .social-accounts .fa-brands {
+        grid-template-columns: repeat(3, 1fr);
     }
+
     @media screen and (min-width:576px) and (max-width:960px) {
 
 
